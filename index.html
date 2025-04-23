@@ -5,14 +5,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="listadetarefas">
-        <h1>Lista de tarefas</h1>    
-        <div id="tarefas">
-            </ul><ul>        
-        </div>
-        <div id="colocartarefa">
-            <input>
-            <button onclick="add()">adicionar</button>
+    <div id="container">
+        <div id="listadetarefas">
+            <h1 id="nome">Lista de tarefas</h1>    
+            <div id="colocartarefa">
+                <input type="text" id="input-box" placeholder="Adiocione uma Tarefa">
+                <button onclick="add()">adicionar</button>
+            </div>
+            <div id="tarefas">
+                </ul><ul>        
+            </div>
         </div>
     </div>
 </body>

@@ -2,7 +2,9 @@
     box-sizing: border-box;
     margin: 0;
 }
-
+body {
+    background: linear-gradient(160deg, purple, blue, red);
+}
 #container {
     width: 100%;
     min-height: 100vh;
@@ -12,12 +14,23 @@
     align-items: center;
 }
 #listadetarefas {
+    background-color: white;
     border: 10px solid black;
+    border-radius: 30px;
     width: 100%;
-    height: 540px;
+    max-width: 900px;
+    height: 70vh;
+    max-height: 70vh;
+    overflow: none;
     font-family: Arial;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+}
+#colocartarefa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
 }
