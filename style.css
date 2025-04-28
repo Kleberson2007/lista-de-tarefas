@@ -34,3 +34,6 @@ body {
     justify-content: space-between;
     color: grey;
 }
+li {
+    text-decoration: none;
+}
