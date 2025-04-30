@@ -18,9 +18,9 @@ body {
     border: 10px solid black;
     border-radius: 30px;
     width: 100%;
-    max-width: 900px;
-    height: 70vh;
-    max-height: 70vh;
+    max-width: 700px;
+    height: 80vh;
+    max-height: 80vh;
     overflow: none;
     font-family: Arial;
     display: flex;
@@ -28,12 +28,19 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
+h1 {
+    padding: 15px;
+}
 #colocartarefa {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: grey;
+    background: grey;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
 }
 li {
-    text-decoration: none;
+    list-style: none;
+    padding: 3px;
 }
