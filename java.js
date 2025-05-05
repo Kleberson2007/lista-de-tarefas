@@ -1,5 +1,5 @@
 //estado da aplicação
-const tarefas = ["estudar HTML", "estudar CSS", "estudar JS"]
+const tarefas = ["estudar HTML", "estudar CSS"]
 
 //alteradores da aplicação
 function add () {
