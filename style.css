@@ -64,4 +64,5 @@ button {
 li {
     list-style: none;
     padding: 3px;
+    cursor: pointer;
 }
