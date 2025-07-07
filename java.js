@@ -1,6 +1,3 @@
-//estado da aplicação
-const tarefas = ["estudar HTML", "estudar CSS"]
-
 //alteradores da aplicação
 function add () {
     const input = document.querySelector("input")
@@ -9,6 +6,14 @@ function add () {
     input.value = ""
     render()
 }
+
+//detectar enter para funcionar
+document.getElementById("input-box").addEventListener("keydown", function(event) {
+    console.log(event.key)
+    if (event.key === "Enter") {
+        add();
+    }
+});
 
 //mostrar na tela
 function render () {
